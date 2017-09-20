@@ -1,4 +1,4 @@
-# OMCNN_2CLSTM
+# OM-CNN+2C-LSTM for video salinecy prediction
 The model of **"Predicting Video Saliency using Object-to-Motion CNN and Two-layer Convolutional LSTM"**, which can be found in https://arxiv.org/abs/1709.06316, with the Bibtex code:  
 @InProceedings{Jiang2017predicting,  
 author = {Lai Jiang, and Mai Xu, and Zulin Wang},  
