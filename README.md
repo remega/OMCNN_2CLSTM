@@ -13,7 +13,7 @@ This model is implemented by **tensorflow-gpu** 1.0.0, and the detail of our com
 The **pre-trained model** can be domwloaded at  
 Google drive: https://drive.google.com/drive/folders/0BwrNwFvsiqVaaEVVUmpyZ0RWSzA?usp=sharing  
 BaiduYun:http://pan.baidu.com/s/1dFGlIY9  
-The model then should be decompressed to the directory of ./model/pretrain/  
+The model then should be decompressed to the directory of **./model/pretrain/**  
 
 The newly-established eye-tracking database, which is mentioned in paper as **LEDOV**, is also available at  
 Dropbox:  
