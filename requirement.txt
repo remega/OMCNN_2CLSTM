@@ -1,0 +1,58 @@
+Jinja2	        2.9.5
+MarkupSafe	0.23
+Pillow	        4.0.0
+PyWavelets	0.5.2	
+Pygments	2.2.0	
+Theano	        0.9.0	
+appdirs	        1.4.2	
+bleach	        1.5.0
+colorama	0.3.7
+cycler   	0.10.0	
+decorator	4.0.11
+entrypoints	0.2.2
+h5py	        2.7.0rc2
+html5lib	0.9999999
+ipykernel	4.5.2
+ipython  	5.3.0
+ipython-genutils0.1.0	
+ipywidgets	6.0.0
+jsonschema	2.6.0
+jupyter	1.0.0	1.0.0
+jupyter-client	5.0.0	
+jupyter-console	5.1.0	
+jupyter-core	4.3.0	
+matplotlib	2.0.0	
+mistune	0.7.3	0.7.4
+nbconvert	5.1.1	
+nbformat	4.3.0	
+networkx	1.11	
+notebook	4.4.1	
+numpy	        1.12.0
+olefile	0.44	0.44
+opencv-python	3.2.0	
+packaging	16.8
+pandocfilters	1.4.1	
+path.py	10.1	10.4
+pickleshare	0.7.4	
+pip	9.0.1	9.0.1
+prompt-toolkit	1.0.13	
+protobuf	3.2.0	
+pyparsing	2.1.10	
+python-dateutil	2.6.0	
+pytz	        2016.10
+pyzmq	        16.0.2
+qtconsole	4.2.1	
+scikit-image	0.13.0	
+scipy	        0.19.0rc2
+setuptools	34.3.0	
+simplegeneric	0.8.1	
+six	        1.10.0
+tensorflow-gpu	1.0.0	
+tensorlayer	1.4.4	
+testpath	0.3	
+tornado	        4.4.2
+traitlets	4.3.2
+wcwidth		0.1.7
+wheel		0.29.0
+widgetsnbextension	2.0.0
+win-unicode-console	0.5	
