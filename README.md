@@ -16,8 +16,8 @@ BaiduYun:http://pan.baidu.com/s/1dFGlIY9
 The model then should be decompressed to the directory of **./model/pretrain/**  
 
 The newly-established eye-tracking database, which is mentioned in paper as **LEDOV**, is also available at  
-Dropbox:  
-BaiduYun:  
+Dropbox:https://www.dropbox.com/s/xqrae7bc73jnncr/LEDOV.zip.001?dl=0 and https://www.dropbox.com/s/pxbahpwkea9icw0/LEDOV.zip.002?dl=0
+BaiduYun:http://pan.baidu.com/s/1pLmfjCZ    
 
 **'TestDemo.py'** is a demo to show how our model predicts the salinecy of an example video. For more detail of our model, please refer to the paper.
 
