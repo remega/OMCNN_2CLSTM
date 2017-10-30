@@ -3,7 +3,7 @@ import tensorflow as tf
 import cv2
 import time
 import h5py
-import OMCNN as Network  # define the CNN
+import OMCNN_2CLSTM as Network  # define the CNN
 import random
 
 
