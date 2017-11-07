@@ -19,6 +19,12 @@ year = {2017}
 or:   
 *Jiang, Lai, Mai Xu, and Zulin Wang. "Predicting Video Saliency with Object-to-Motion CNN and Two-layer Convolutional LSTM." arXiv preprint arXiv:1709.06316 (2017).*
 
+## Models
+The whole architecture consists of two parts: OM-CNN and 2C-LSTM, which is shown below. The pre-trained model has already been uploaded to [Google drive](https://drive.google.com/drive/folders/0BwrNwFvsiqVaaEVVUmpyZ0RWSzA?usp=sharing) and [BaiduYun](http://pan.baidu.com/s/1dFGlIY9).
+
+![OM-CNN](/fig/OM-CNN.png "OM-CNN")
+![2C-LSTM](/fig/2C-LSTM.png "2C-LSTM")
+
 
 This model is implemented by **tensorflow-gpu** 1.0.0, and the detail of our computational environment is listed in **'requirement.txt'**.
 
