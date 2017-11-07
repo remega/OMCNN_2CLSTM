@@ -35,7 +35,7 @@ This model is implemented by **tensorflow-gpu** 1.0.0, and the detail of our com
 
 ## Visual Results
 Some visual results of our model and ground-truth.
-![visual_result](/fig/visual_result.png "visual_result")
+![visualresult](/fig/visualresult.png "visualresult")
 
 ## Contact
 If any question, please contact jianglai.china@buaa.edu.cn （or jianglai.china@aliyun.com）, or use public issues section of this repository.
