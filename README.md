@@ -16,7 +16,6 @@ month = {Sep.},
 year = {2017}  
 }
 ```
-
 or:   
 *Jiang, Lai, Mai Xu, and Zulin Wang. "Predicting Video Saliency with Object-to-Motion CNN and Two-layer Convolutional LSTM." arXiv preprint arXiv:1709.06316 (2017).*
 
