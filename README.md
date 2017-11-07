@@ -20,24 +20,22 @@ or:
 *Jiang, Lai, Mai Xu, and Zulin Wang. "Predicting Video Saliency with Object-to-Motion CNN and Two-layer Convolutional LSTM." arXiv preprint arXiv:1709.06316 (2017).*
 
 ## Models
-The whole architecture consists of two parts: OM-CNN and 2C-LSTM, which is shown below. The pre-trained model has already been uploaded to [Google drive](https://drive.google.com/drive/folders/0BwrNwFvsiqVaaEVVUmpyZ0RWSzA?usp=sharing) and [BaiduYun](http://pan.baidu.com/s/1dFGlIY9).
+The whole architecture consists of two parts: OM-CNN and 2C-LSTM, which is shown below. The pre-trained model has already been uploaded to [Google drive](https://drive.google.com/drive/folders/0BwrNwFvsiqVaaEVVUmpyZ0RWSzA?usp=sharing) and [BaiduYun](http://pan.baidu.com/s/1dFGlIY9).  
+For running the demo, please the model should be decompressed to the directory of **./model/pretrain/**.
 
 ![OM-CNN](/fig/OM-CNN.png "OM-CNN")
+
 ![2C-LSTM](/fig/2C-LSTM.png "2C-LSTM")
 
+## Database
+As introduced in our paper, our model is trained by our newly-established eye-tracking database,  [LEDOV](https://github.com/remega/LEDOV-eye-tracking-database), which is also available at Dropbox ([Part1](https://www.dropbox.com/s/xqrae7bc73jnncr/LEDOV.zip.001?dl=0) and [Part2](https://www.dropbox.com/s/pxbahpwkea9icw0/LEDOV.zip.002?dl=0)) and [BaiduYun](http://pan.baidu.com/s/1pLmfjCZ)
 
-This model is implemented by **tensorflow-gpu** 1.0.0, and the detail of our computational environment is listed in **'requirement.txt'**.
+## Usage
+This model is implemented by **tensorflow-gpu** 1.0.0, and the detail of our computational environment is listed in **'requirement.txt'**. Just run **'TestDemo.py'** to see the saliency prediction results on a test video.
 
+## Visual Results
+Some visual results of our model and ground-truth.
+![visual_result](/fig/visual_result.png "visual_result")
 
-The **pre-trained model** can be domwloaded at  
-Google drive: https://drive.google.com/drive/folders/0BwrNwFvsiqVaaEVVUmpyZ0RWSzA?usp=sharing  
-BaiduYun:http://pan.baidu.com/s/1dFGlIY9  
-The model then should be decompressed to the directory of **./model/pretrain/**  
-
-The newly-established eye-tracking database, which is mentioned in paper as **LEDOV**, is also available at  
-Dropbox:https://www.dropbox.com/s/xqrae7bc73jnncr/LEDOV.zip.001?dl=0 and https://www.dropbox.com/s/pxbahpwkea9icw0/LEDOV.zip.002?dl=0  
-BaiduYun:http://pan.baidu.com/s/1pLmfjCZ    
-
-**'TestDemo.py'** is a demo to show how our model predicts the salinecy of an example video. For more detail of our model, please refer to the paper.
-
-If any question, please contact jianglai.china@buaa.edu.cn, or use public issues section of this repository.
+## Contact
+If any question, please contact jianglai.china@buaa.edu.cn （or jianglai.china@aliyun.com）, or use public issues section of this repository.
