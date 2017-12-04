@@ -96,10 +96,10 @@ def main():
 			Input_Batch = _BatchExtraction(VideoCap, framesnum + frame_skip, last_input=Input_last,video_start=videostart)
 			Input_last = Input_Batch
 
-			mask_in = np.ones((1, 28, 28, 128, 4 * 2))
-			mask_h = np.ones((1, 28, 28, 128, 4 * 2))
-			np_predict = sess.run(predicts, feed_dict={input: Input_Batch, RNNmask_in: mask_in, RNNmask_h: mask_h})
-			for index in range(framesnum):
+		mask_in = np.ones((1, 28, 28, 128, 4 * 2))
+		mask_h = np.ones((1, 28, 28, 128, 4 * 2))
+		np_predict = sess.run(predicts, feed_dict={input: Input_Batch, RNNmask_in: mask_in, RNNmask_h: mask_h})
+		for index in range(framesnum):
 			   Out_frame = np_predict[0,index, :, :, 0]
 			   Out_frame = Out_frame * 255
 			   Out_frame = np.uint8(Out_frame)
