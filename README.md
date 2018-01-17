@@ -39,3 +39,6 @@ Some visual results of our model and ground-truth.
 
 ## Contact
 If any question, please contact jianglai.china@buaa.edu.cn （or jianglai.china@aliyun.com）, or use public issues section of this repository.
+
+## License
+This code is distributed under MIT LICENSE.
