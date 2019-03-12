@@ -27,7 +27,7 @@ For running the demo, please the model should be decompressed to the directory o
 ![2C-LSTM](/fig/2C-LSTM.png "2C-LSTM")
 
 ## Database
-As introduced in our paper, our model is trained by our newly-established eye-tracking database,  [LEDOV](https://github.com/remega/LEDOV-eye-tracking-database), which is also available at Dropbox ([Part1](https://www.dropbox.com/s/xqrae7bc73jnncr/LEDOV.zip.001?dl=0) and [Part2](https://www.dropbox.com/s/pxbahpwkea9icw0/LEDOV.zip.002?dl=0)) and [BaiduYun](http://pan.baidu.com/s/1pLmfjCZ)
+As introduced in our paper, our model is trained by our newly-established eye-tracking database,  [LEDOV](https://github.com/remega/LEDOV-eye-tracking-database), which is also available at [Dropbox](https://www.dropbox.com/s/pc8symd9i3cky1q/LEDOV.zip?dl=0) and [BaiduYun](http://pan.baidu.com/s/1pLmfjCZ)
 
 ## Usage
 This model is implemented by **tensorflow-gpu** 1.0.0, and the detail of our computational environment is listed in **'requirement.txt'**. Just run **'TestDemo.py'** to see the saliency prediction results on a test video.
