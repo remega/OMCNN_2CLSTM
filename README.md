@@ -41,3 +41,7 @@ If any question, please contact jianglai.china@buaa.edu.cn （or jianglai.china@
 
 ## License
 This code is distributed under MIT LICENSE.
+
+
+## Supplementary material
+[Link](https://www.dropbox.com/s/p88eya7ek9xg8pf/eccv2018supplementary-2550.pdf?dl=0)
