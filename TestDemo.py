@@ -104,6 +104,18 @@ def main():
 			Out_frame = Out_frame * 255
 			Out_frame = np.uint8(Out_frame)
 			videoWriter.write(Out_frame)
+	# restFrame = VideoFrame - VideoCap.get(cv2.CAP_PROP_POS_FRAMES)
+	#overlap = framesnum - restFrame + overlapframe
+	#Input_Batch = _BatchExtraction(VideoCap, framesnum + frame_skip, last_input=Input_last,video_start=False)
+	#mask_in = np.ones((1, 28, 28, 128, 4 * 2))
+	#mask_h = np.ones((1, 28, 28, 128, 4 * 2))
+	#np_predict = sess.run(predicts, feed_dict={input: Input_Batch, RNNmask_in: mask_in, RNNmask_h: mask_h})
+	#for index in range(restFrame):
+	#	Out_frame = np_predict[0, framesnum - restFrame + index, :, :, 0]
+	#	Out_frame = Out_frame * 255
+	#	Out_frame = np.uint8(Out_frame)
+	#	videoWriter.write(Out_frame)
+			
 	duration = float(time.time() - start_time)
 	print('Total time for this video %f' % (duration))
 		# print(duration)
