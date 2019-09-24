@@ -1,6 +1,6 @@
 OM-CNN+2C-LSTM for video salinecy prediction
 ==========
-The model of [**"Predicting Video Saliency using Object-to-Motion CNN and Two-layer Convolutional LSTM"**](https://arxiv.org/abs/1709.06316), which has also been published as [**" DeepVS: A Deep Learning Based Video Saliency Prediction Approach
+The model of [**" DeepVS: A Deep Learning Based Video Saliency Prediction Approach
 "**](http://openaccess.thecvf.com/content_ECCV_2018/html/Lai_Jiang_DeepVS_A_Deep_ECCV_2018_paper.html) at ECCV2018.
 
 ## Abstract
