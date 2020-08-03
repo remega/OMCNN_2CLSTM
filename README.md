@@ -36,15 +36,20 @@ This model is implemented by **tensorflow-gpu** 1.0.0, and the detail of our com
 Some visual results of our model and ground-truth.
 ![visualresult](/fig/visualresult.png "visualresult")
 
+## Ablation 
+
+![Ablation](/fig/ablationfig.png "Ablation")
+
+## To do 
+Our DeepVS2.0 will be upated soon.
+
 ## Contact
 If any question, please contact jianglai.china@buaa.edu.cn （or jianglai.china@aliyun.com）, or use public issues section of this repository.
 
 ## License
 This code is distributed under MIT LICENSE.
 
-## Ablation 
 
-![Ablation](/fig/abaltionfig.png "Ablation")
 
 ## Supplementary material
 [Link](https://www.dropbox.com/s/p88eya7ek9xg8pf/eccv2018supplementary-2550.pdf?dl=0)
